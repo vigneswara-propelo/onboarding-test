@@ -1,0 +1,29 @@
+pipeline:
+  name: Test pipeline - Remote
+  identifier: Test_pipeline_Remote
+  projectIdentifier: IDP_Test
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: Build
+        identifier: Build
+        description: ""
+        type: CI
+        spec:
+          cloneCodebase: false
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Docker
+            spec: {}
+          execution:
+            steps:
+              - step:
+                  type: Run
+                  name: Run_1
+                  identifier: Run_1
+                  spec:
+                    shell: Sh
+                    command: echo "Hello"
