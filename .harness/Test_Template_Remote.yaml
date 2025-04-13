@@ -10,4 +10,4 @@ template:
     type: Run
     spec:
       shell: Sh
-      command: echo "Hello"
+      command: echo "Hello World"
