@@ -1,0 +1,13 @@
+template:
+  name: Test Template Remote
+  identifier: Test_Template_Remote
+  versionLabel: v0
+  type: Step
+  projectIdentifier: IDP_Test
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Run
+    spec:
+      shell: Sh
+      command: echo "Hello"
