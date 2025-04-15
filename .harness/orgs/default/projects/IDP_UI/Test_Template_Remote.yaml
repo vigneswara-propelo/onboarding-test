@@ -34,4 +34,4 @@ template:
                     identifier: Run_1
                     spec:
                       shell: Sh
-                      command: echo "Hello"
+                      command: echo "Hello World"
