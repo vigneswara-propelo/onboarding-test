@@ -1,0 +1,9 @@
+pipeline:
+  name: Test remote pipeline - Reference
+  identifier: Test_remote_pipeline_Reference
+  tags: {}
+  template:
+    templateRef: Test_Template_Remote
+    versionLabel: v1
+  projectIdentifier: IDP_UI
+  orgIdentifier: default
