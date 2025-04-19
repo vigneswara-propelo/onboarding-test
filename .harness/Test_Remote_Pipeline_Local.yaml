@@ -1,0 +1,31 @@
+pipeline:
+  name: Test Remote Pipeline Local
+  identifier: Test_Remote_Pipeline_Local
+  projectIdentifier: SampleTest
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: IDP
+        identifier: IDP
+        description: ""
+        type: IDP
+        spec:
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Docker
+            spec: {}
+          execution:
+            steps:
+              - step:
+                  type: CreateProject
+                  name: CreateProject_1
+                  identifier: CreateProject_1
+                  spec:
+                    projectName: Test Project
+                    orgIdentifier: default
+                    xApiKey: account.X_API_KEY
+                    orgType: existingOrg
+        tags: {}
