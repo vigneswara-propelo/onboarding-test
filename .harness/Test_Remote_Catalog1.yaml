@@ -8,7 +8,6 @@ orgIdentifier: default
 projectIdentifier: IDP_Test
 spec:
   lifecycle: experimental
-entityType: IdpCatalog
 metadata:
   tags:
   - java
