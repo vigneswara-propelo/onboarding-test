@@ -6,7 +6,6 @@ name: Test Remote Catalog3
 owner: user:account/admin@harness.io
 spec:
   lifecycle: experimental
-entityType: IdpCatalog
 metadata:
   tags:
   - java
