@@ -1,0 +1,29 @@
+pipeline:
+  name: Test Pipeline Create PR
+  identifier: Test_Pipeline_Create_PR
+  projectIdentifier: SampleTest
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: IDP
+        identifier: IDP
+        description: ""
+        type: IDP
+        spec:
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Docker
+            spec: {}
+          execution:
+            steps:
+              - step:
+                  type: CreateOrganization
+                  name: CreateOrganization_1
+                  identifier: CreateOrganization_1
+                  spec:
+                    orgName: Dummy
+                    xApiKey: account.X_API_KEY
+        tags: {}
