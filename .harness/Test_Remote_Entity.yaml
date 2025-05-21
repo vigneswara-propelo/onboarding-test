@@ -30,4 +30,4 @@ pipeline:
                   identifier: Run_1
                   spec:
                     shell: Sh
-                    command: echo "Hello World"
+                    command: echo "Hello World - Test"
