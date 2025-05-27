@@ -9,4 +9,4 @@ spec:
 entityType: IdpCatalog
 metadata:
   tags:
-  - java
+  - java-abc
