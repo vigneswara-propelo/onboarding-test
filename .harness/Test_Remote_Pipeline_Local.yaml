@@ -24,7 +24,7 @@ pipeline:
                   name: CreateProject_1
                   identifier: CreateProject_1
                   spec:
-                    projectName: Test Project dummy123
+                    projectName: Test Project dummy
                     orgIdentifier: default
                     xApiKey: account.X_API_KEY
                     orgType: existingOrg
