@@ -10,4 +10,4 @@ spec:
   - user:account/admin@harness.io
 metadata:
   tags:
-  - java
+  - java-abc
