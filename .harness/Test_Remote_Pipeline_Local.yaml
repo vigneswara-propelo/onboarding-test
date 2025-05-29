@@ -25,6 +25,7 @@ pipeline:
                   identifier: CreateProject_1
                   spec:
                     orgIdentifier: default
+                    projectName: Test Project dummy123
                     xApiKey: account.X_API_KEY
                     orgType: existingOrg
         tags: {}
