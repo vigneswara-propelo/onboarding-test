@@ -5,7 +5,7 @@ identifier: test_remote_catalog8
 name: Test Remote Catalog8
 owner: user:account/admin@harness.io
 spec:
-  lifecycle: experimental
+  lifecycle: production
 metadata:
   tags:
   - java
