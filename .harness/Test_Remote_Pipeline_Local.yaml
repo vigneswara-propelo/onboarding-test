@@ -1,7 +1,6 @@
 pipeline:
   name: Test Remote Pipeline Local
   identifier: Test_Remote_Pipeline_Local
-  projectIdentifier: SampleTest
   orgIdentifier: default
   tags: {}
   stages:
