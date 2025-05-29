@@ -11,3 +11,4 @@ spec:
 metadata:
   tags:
   - java
+  - python
