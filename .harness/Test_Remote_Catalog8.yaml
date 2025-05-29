@@ -8,4 +8,4 @@ spec:
   lifecycle: experimental
 metadata:
   tags:
-    - java
+    - java-abc
