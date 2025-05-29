@@ -2,6 +2,7 @@ pipeline:
   name: Test Remote Pipeline Local
   identifier: Test_Remote_Pipeline_Local
   orgIdentifier: default
+  projectIdentifier: SampleTest
   tags: {}
   stages:
     - stage:
@@ -23,7 +24,6 @@ pipeline:
                   name: CreateProject_1
                   identifier: CreateProject_1
                   spec:
-                    projectName: Test Project dummy123
                     orgIdentifier: default
                     xApiKey: account.X_API_KEY
                     orgType: existingOrg
