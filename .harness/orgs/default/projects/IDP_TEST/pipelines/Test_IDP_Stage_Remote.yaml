@@ -1,0 +1,31 @@
+pipeline:
+  name: Test IDP Stage Remote
+  identifier: Test_IDP_Stage_Remote
+  tags: {}
+  projectIdentifier: IDP_TEST
+  orgIdentifier: default
+  stages:
+    - stage:
+        name: IDP
+        identifier: IDP
+        description: ""
+        type: IDP
+        spec:
+          platform:
+            os: Linux
+            arch: Amd64
+          runtime:
+            type: Cloud
+            spec: {}
+          execution:
+            steps:
+              - step:
+                  type: CreateProject
+                  name: CreateProject_1
+                  identifier: CreateProject_1
+                  spec:
+                    projectName: testdummy
+                    orgIdentifier: default
+                    xApiKey: account.Harnessxapi
+                    orgType: existingOrg
+        tags: {}
