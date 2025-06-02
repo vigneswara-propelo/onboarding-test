@@ -26,6 +26,5 @@ pipeline:
                   spec:
                     projectName: testdummy
                     orgIdentifier: default
-                    xApiKey: account.Harnessxapi
                     orgType: existingOrg
         tags: {}
