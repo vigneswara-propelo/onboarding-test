@@ -7,7 +7,7 @@ owner: user:account/admin@harness.io
 orgIdentifier: default
 projectIdentifier: IDP_Test
 spec:
-  lifecycle: experimental
+  lifecycle: production
 metadata:
   tags:
   - java
