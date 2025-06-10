@@ -5,7 +5,7 @@ identifier: test_remote_catalog
 name: Test Remote Catalog
 owner: user:account/admin@harness.io
 spec:
-  lifecycle: production
+  lifecycle: production-sample
   ownedBy:
   - user:account/admin@harness.io
 metadata:
