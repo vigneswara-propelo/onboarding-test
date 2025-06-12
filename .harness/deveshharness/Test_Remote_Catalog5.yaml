@@ -9,7 +9,7 @@ spec:
   ownedBy:
   - user:account/admin@harness.io
 metadata:
-  description: Test Remote Catalog5 for demonstration
+  description: Test Remote Catalog5 for demonstration tonight
   tags:
   - java
   - rest
