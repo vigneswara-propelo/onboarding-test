@@ -1,6 +1,6 @@
 apiVersion: harness.io/v1
 type: component
-identifier: test_remote_catalog_1
+identifier: test_remote_catalog
 name: Test Remote Catalog
 spec:
   lifecycle: experimental
