@@ -11,5 +11,4 @@ spec:
 metadata:
   description: Test Remote Catalog QA
   tags:
-  - store
   - java
