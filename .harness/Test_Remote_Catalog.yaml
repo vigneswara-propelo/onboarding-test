@@ -8,6 +8,3 @@ spec:
   lifecycle: production
   ownedBy:
   - user:account/admin@harness.io
-metadata:
-  tags:
-  - java
