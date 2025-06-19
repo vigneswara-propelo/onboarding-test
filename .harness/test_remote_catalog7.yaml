@@ -1,0 +1,14 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: test_remote_catalog7
+name: Test Remote Catalog7
+owner: user:account/admin@harness.io
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - component:account/test_remote_catalog7
+  - component:account/test_remote_catalog7
+metadata:
+  tags:
+  - java
