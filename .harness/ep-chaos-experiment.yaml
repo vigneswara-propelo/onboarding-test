@@ -1,0 +1,19 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: ep-chaos-experiment
+name: ep-chaos-experiment
+owner: hceusers
+spec:
+  lifecycle: production
+  dependsOn:
+  - component:ep-chaos-operator
+metadata:
+  description: Execution Plane Component - It execute the fault business logic, probes
+    and generate the final result
+  links:
+  - url: https://github.com/wings-software/litmus-go
+    title: repo
+  tags:
+  - go
+  - ep
