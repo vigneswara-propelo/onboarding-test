@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: test_inline_catalog
+name: Test Inline Catalog
+owner: user:account/admin@harness.io
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - component:account/test_inline_catalog
+  - component:account/test_inline_catalog
+  - user:account/admin@harness.io
+metadata:
+  description: desc
+  tags:
+  - java
