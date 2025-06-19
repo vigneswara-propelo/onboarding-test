@@ -1,0 +1,11 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: boutique
+name: Boutique Checkout
+owner: user:admin
+spec:
+  lifecycle: Production
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
