@@ -9,6 +9,7 @@ spec:
   ownedBy:
   - user:account/vigneswara.mh@harness.io
 metadata:
-  description: Test Remote Catalog QA
+  description: Test Remote Catalog QA 01
   tags:
   - java
+  - spotify
