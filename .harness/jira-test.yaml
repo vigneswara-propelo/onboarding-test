@@ -1,0 +1,41 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: jira-test
+name: jira-test
+owner: team-sgsg
+spec:
+  lifecycle: experimental
+metadata:
+  teamLeadNew: Random Name
+  description: pipeline build and deploy
+  annotations:
+    jira/project-key: IDP
+    github.com/project-slug: backstage/backstage
+    backstage.io/source-location: url:https://github.com/jenil-harness/backstage-test/tree/main/
+  links:
+  - url: https://example.com/user
+    title: Examples Users
+    icon: datadog
+  - url: https://example.com/group
+    title: Example Group
+    icon: flipboard
+  - url: https://example.com/cloud
+    title: Link with Cloud Icon
+    icon: testinglibrary
+  - url: https://example.com/dashboard
+    title: Dashboard
+    icon: dashboard
+  - url: https://example.com/help
+    title: Support
+    icon: help
+  - url: https://example.com/web
+    title: Website
+    icon: web
+  - url: https://example.com/alert
+    title: Alerts
+    icon: alert
+  teamManager: David Avason
+  teamLead: John Lockieee
+  tags:
+  - order
