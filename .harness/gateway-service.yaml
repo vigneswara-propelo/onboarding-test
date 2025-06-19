@@ -1,0 +1,47 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: gateway-service
+name: gateway-service
+owner: user:admin@harness.io
+spec:
+  lifecycle: production
+  providesApi:
+  - api:gateway-service
+  providesApis:
+  - gateway-service
+  dependsOn:
+  - component:manager
+metadata:
+  description: Harness Identity Gateway service
+  annotations:
+    harness.io/cd-serviceId: gateway
+    backstage.io/kubernetes-label-selector: app=gateway
+    harness.io/ci-pipelineIds: Branching_AND_Release
+    harness.io/projects: DevSpaces
+    harness.io/project-url: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/all/orgs/default/projects/DevSpaces/pipelines/Branching_AND_Release
+    harness.io/project-url-stage: https://stage.harness.io/ng/account/wFHXHD0RRQWoO8tIZT5YVw/cd/orgs/Harness/projects/Operations/deployments
+    harness.io/projects-stage: Operations,RELEASEBUILDS
+    harness.io/cd-serviceId-stage: gateway
+    jira/project-key: PL
+    backstage.io/techdocs-ref: url:https://github.com/wings-software/identity-gateway/tree/techdocs
+    pagerduty.com/service-id: PAFRPKO
+    github.com/project-slug: wings-software/identity-gateway
+    backstage.io/source-location: url:https://github.com/wings-software/identity-gateway/tree/develop
+  links:
+  - title: repo
+    url: https://github.com/wings-software/identity-gateway
+  - title: QA kubernetes GCP Reference
+    url: https://console.cloud.google.com/kubernetes/deployment/us-west1/qa-private/gateway-qa/gateway/overview?project=qa-setup
+  - title: PROD1 and PROD2 kubernetes GCP Reference
+    url: https://console.cloud.google.com/kubernetes/deployment/us-west1/prod-private-uswest1-primary/gateway-prod/gateway/overview?project=prod-setup-205416
+  - title: UAT kubernetes GCP Reference
+    url: https://console.cloud.google.com/kubernetes/deployment/us-central1-a/uat-private/gateway-prod/gateway/overview?project=uat-setup-261723
+  - title: PROD3 kubernetes GCP Reference
+    url: https://console.cloud.google.com/kubernetes/deployment/us-west1/prod-private-uswest1-primary/gateway-prod-compliance/gateway/overview?project=prod-setup-205416
+  - title: Platform Owned Service Release Calendar
+    url: https://harness.atlassian.net/wiki/spaces/PLATFORM/pages/21693792411/Platform+Owned+Service+Release+Calendar+2024
+  teamLeadNew: Random Name
+  teamLead: John Cena
+  tags:
+  - java
