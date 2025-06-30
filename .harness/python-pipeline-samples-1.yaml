@@ -1,6 +1,6 @@
 apiVersion: harness.io/v1
 kind: Component
-type: Service
+type: service
 identifier: python-pipeline-samples-1
 name: python-pipeline-samples-1
 owner: hceusers
