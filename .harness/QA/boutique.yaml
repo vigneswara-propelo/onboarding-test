@@ -1,0 +1,16 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: boutique
+name: Boutique Checkout
+owner: group:test_user
+spec:
+  lifecycle: Production
+  dependsOn:
+  - api:dasdsa
+  - api:test_project
+metadata:
+  majorVersion: 1
+  description: Test Description
+  annotations:
+    backstage.io/techdocs-ref: dir:.
