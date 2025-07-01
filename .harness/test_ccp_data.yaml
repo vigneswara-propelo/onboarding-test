@@ -2,7 +2,6 @@ apiVersion: harness.io/v1
 kind: Component
 type: component
 identifier: test_ccp_data
-orgIdentifier: default
 name: Test CCP Data
 owner: user:account/rbac2@harness.io
 spec:
