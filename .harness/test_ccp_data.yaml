@@ -3,11 +3,11 @@ kind: Component
 type: component
 identifier: test_ccp_data
 name: Test CCP Data
-owner: user:account/rbac2@harness.io
+owner: user:account/rbac1@harness.io
 spec:
   lifecycle: experimental
   ownedBy:
-  - user:account/rbac2@harness.io
+  - user:account/rbac1@harness.io
 metadata:
   tags:
   - java
