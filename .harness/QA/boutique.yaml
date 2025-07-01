@@ -10,7 +10,7 @@ spec:
   - api:dasdsa
   - api:test_project
 metadata:
-  majorVersion: 1
+  majorVersion: 2
   description: Test Description
   annotations:
     backstage.io/techdocs-ref: dir:.
