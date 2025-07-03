@@ -9,3 +9,4 @@ spec:
 metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
+    pagerduty.com/project-id: CDE
