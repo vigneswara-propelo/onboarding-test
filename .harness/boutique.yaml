@@ -10,6 +10,6 @@ spec:
   - user:account/admin@harness.io
 metadata:
   annotations:
-    pagerduty.com/project-id: CDE
+    pagerduty.com/project-id: CDE1
   tags:
   - java
