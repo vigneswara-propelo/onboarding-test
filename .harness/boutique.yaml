@@ -2,7 +2,7 @@ apiVersion: harness.io/v1
 kind: Component
 type: component
 identifier: boutique
-name: Boutique Checkout4
+name: Boutique Checkout
 owner: user:account/admin@harness.io
 spec:
   lifecycle: experimental
