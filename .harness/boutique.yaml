@@ -1,12 +1,13 @@
 apiVersion: harness.io/v1
 kind: Component
-type: service
+type: component
 identifier: boutique
-name: Boutique Checkout
-owner: user:admin
+name: Boutique Checkout4
+owner: user:account/admin@harness.io
 spec:
-  lifecycle: Production
+  lifecycle: experimental
+  ownedBy:
+  - user:account/admin@harness.io
 metadata:
-  annotations:
-    backstage.io/techdocs-ref: dir:.
-    pagerduty.com/project-id: CDE
+  tags:
+  - java
