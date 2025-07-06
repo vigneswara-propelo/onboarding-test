@@ -9,5 +9,7 @@ spec:
   ownedBy:
   - user:account/admin@harness.io
 metadata:
+  annotations:
+    pagerduty.com/project-id: CDE
   tags:
   - java
