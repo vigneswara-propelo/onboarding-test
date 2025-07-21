@@ -14,3 +14,4 @@ metadata:
   description: Test Description
   annotations:
     backstage.io/techdocs-ref: dir:.
+    backstage.io/source-location: url:https://gihub.com/harness/harness-core
