@@ -1,0 +1,14 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: test_gitx_demo_kt_new
+name: Test GitX demo KT new
+owner: user:account/vigneswara.mh@harness.io
+spec:
+  lifecycle: production
+  ownedBy:
+  - user:account/vigneswara.mh@harness.io
+metadata:
+  description: Test GitX demo KT new
+  tags:
+  - gitx
