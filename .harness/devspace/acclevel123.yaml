@@ -3,7 +3,7 @@ kind: Component
 type: component
 identifier: acclevel123
 name: acclevel123
-owner: group:Test_IDP_Platform_Eng
+owner: group:account/Test_IDP_Platform_Eng
 spec:
   lifecycle: experimental
 metadata:
@@ -22,3 +22,4 @@ metadata:
   tags:
   - mqtt
   - java
+  - microservice
