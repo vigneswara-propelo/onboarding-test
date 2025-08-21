@@ -1,0 +1,24 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: acclevel123
+name: acclevel123
+owner: group:Test_IDP_Platform_Eng
+spec:
+  lifecycle: experimental
+metadata:
+  description: dasdada
+  annotations:
+    pagerduty.com/project-id: IDP
+  sto:
+    vigneswara-propelo/Employee-Management-System:
+      snyk:
+        high: 30
+        total: 70
+        critical: 4
+        low: 3
+        medium: 29
+        info: 4
+  tags:
+  - mqtt
+  - java
