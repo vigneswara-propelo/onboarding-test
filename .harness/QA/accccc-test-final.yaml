@@ -1,0 +1,18 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: accccc-test-final
+name: accccc-test-final
+owner: group:account/own
+spec:
+  lifecycle: experimental
+  dependsOn: []
+metadata:
+  description: desc
+  annotations:
+    harness.io/pipelines: |
+      Build: https://stress.harness.io/ng/account/px7xd_BFRCi-pfWPYXVjvw/home/orgs/default/projects/idptestharness/pipelines/cipipelinetest_sto/pipeline-studio/?storeType=INLINE
+    harness.io/services: |
+      cd: https://stress.harness.io/ng/account/px7xd_BFRCi-pfWPYXVjvw/cd/orgs/default/projects/idptestharness/services/testservice
+    gitlab.com/project-id: '72857233'
+    jira/project-key: '428'
