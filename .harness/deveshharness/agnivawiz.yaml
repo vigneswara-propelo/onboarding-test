@@ -1,0 +1,17 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: agnivawiz
+name: agnivawiz
+owner: group:test_user
+spec:
+  lifecycle: Production
+metadata:
+  description: dhgfjfdas jdagaldfgsd fdhkdhaskhu
+  annotations:
+    wiz.io/project-id: project
+    harnessfme/projectId: 205e9e60-5e28-11f0-b256-ae42fb35a0c7
+    harnessfme/accountId: 203d33b0-5e28-11f0-b256-ae42fb35a0c7
+  tags:
+  - python-test
+  - java
