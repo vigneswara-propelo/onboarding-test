@@ -1,0 +1,64 @@
+apiVersion: harness.io/v1
+kind: Component
+type: website
+identifier: idpadmin
+name: IDP Admin
+owner: group:account/idpui
+spec:
+  lifecycle: production
+  sourceCode:
+    branch: main
+    monoRepo: false
+    isHarnessCodeRepo: false
+    provider: Github
+    connectorRef: account.Vignesh_Github
+    monoReposubDirectoryPath: ''
+    repoName: Employee-Management-System
+    url: https://github.com/vigneswara-propelo/Employee-Management-System/tree/main
+  dependsOn:
+  - component:account/ng-manager
+  - component:idp-service
+  consumesApis:
+  - idp-service
+  consumesApi:
+  - api:idp-service
+metadata:
+  description: IDP admin/settings microfrontend
+  annotations:
+    harness.io/projects-stage: Operations,RELEASEBUILDS
+    harness.io/ci-pipelineIds: Docker_Image
+    harness.io/cd-serviceId-stage: idpadmin
+    harness.io/ci-pipelineIds-stage: IDPAdminBuildRelease,IDPAdminCutBranch
+    harness.io/project-url-stage: https://stage.harness.io/ng/account/wFHXHD0RRQWoO8tIZT5YVw/cd/orgs/Harness/projects/Operations/deployments
+    backstage.io/kubernetes-label-selector: app=idp-admin-ui
+    github.com/project-slug: harness/idp-settings-ui
+    harness.io/cd-serviceId: idpadmin
+    pagerduty.com/service-id: PT5ED69
+    jira/project-key: IDP
+    harness.io/project-url: https://app.harness.io/ng/account/vpCkHKsDSxK9_KYfjCTMKA/ci/orgs/default/projects/IDP_Settings_UI/dashboard
+    backstage.io/techdocs-ref: url:https://github.com/harness/idp-settings-ui/tree/techdocs
+    harness.io/pipelines: |
+      Build: https://stress.harness.io/ng/account/px7xd_BFRCi-pfWPYXVjvw/home/orgs/default/projects/idptestharness/pipelines/cipipelinetest_sto/pipeline-studio/?storeType=INLINE
+    harness.io/services: |
+      cd: https://stress.harness.io/ng/account/px7xd_BFRCi-pfWPYXVjvw/cd/orgs/default/projects/idptestharness/services/testservice
+  links:
+  - title: GitHub repo
+    url: https://github.com/harness/idp-settings-ui
+  - title: Slack channel
+    url: https://harness.slack.com/archives/C045CQ3PGAC
+  - title: Email
+    url: https://harness.atlassian.net/wiki/spaces/IDP/overview#:~:text=idp%2Dinternal%40harness.io
+  - title: New member onboarding docs
+    url: https://harness.atlassian.net/wiki/spaces/IDP/pages/21274821179/Onboarding+docs
+  - title: Debugging FAQs
+    url: https://harness.atlassian.net/wiki/spaces/IDP/pages/21456552616/Debugging+FAQs
+  - title: Troubleshooting guide
+    url: https://harness.atlassian.net/wiki/spaces/IDP/pages/21483946109/Troubleshooting+guide
+  - title: Zephyr testcases
+    url: https://harness.atlassian.net/projects/IDP?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page#!/v2/testCases?projectId=10341
+  harnessData:
+    qa_version: '1.24'
+    prod_version: '1.23'
+  tags:
+  - javascript
+  - sto
