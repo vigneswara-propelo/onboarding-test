@@ -1,0 +1,18 @@
+apiVersion: harness.io/v1
+kind: Component
+type: component
+identifier: account_level_1202_test
+name: account level 1202 test
+owner: group:account/Test_IDP_Platform_Eng
+spec:
+  lifecycle: experimental
+  ownedBy:
+  - group:account/Test_IDP_Platform_Eng
+metadata:
+  description: account level 1202 test. account level 1202 test.  account level 1202
+    test. account level 1202 test
+  tags:
+  - java
+  - mqtt
+  - users
+  - rest
