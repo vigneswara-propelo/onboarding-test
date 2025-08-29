@@ -16,6 +16,8 @@ metadata:
       cd: https://stress.harness.io/ng/account/px7xd_BFRCi-pfWPYXVjvw/cd/orgs/default/projects/idptestharness/services/testservice
     gitlab.com/project-id: '72857233'
     jira/project-key: '428'
-    jfrog.com/artifactory-group: DEP
-    jfrog.com/artifactory-artifact: dotnetlambdatest03/1.0.0/dotnetlambdatest03-1.0.0.zip
-    jfrog.com/artifactory-repo: ESA
+    jfrog.com/artifactory-artifact: my-lib
+    jfrog.com/artifactory-repo: jitpack-cache
+    jfrog.com/artifactory-group: com.mycompany
+    jfrog.com/artifactory-scope: compile
+    jfrog.com/artifactory-packaging: jar
