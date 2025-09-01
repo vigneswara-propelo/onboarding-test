@@ -42,7 +42,7 @@ metadata:
     harness.io/services: |
       cd: https://stress.harness.io/ng/account/px7xd_BFRCi-pfWPYXVjvw/cd/orgs/default/projects/idptestharness/services/testservice
     harness.io/sto-test-target:
-    - name: vigneswara-propelo/employee-management-system
+    - name: vigneswara-propelo/Employee-Management-System
       scope: default.IDP_TEST
   links:
   - title: GitHub repo
