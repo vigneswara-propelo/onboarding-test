@@ -6,7 +6,20 @@ name: accccc-test-final
 owner: group:account/own
 spec:
   lifecycle: experimental
-  dependsOn: []
+  providesApis:
+  - api:account/api1
+  - api:account/dasdsa
+  - api:account/api_resolve
+  - api:account/accesscontrol-service
+  - api:account/cchg
+  ownedBy:
+  - group:account/AAAFF
+  consumesApis:
+  - api:account/testingg_url_505
+  - api:account/test_project
+  - api:account.default.IDP_TEST/testapitest
+  - api:account/testingg_url_510
+  - api:account/testapi
 metadata:
   description: desc
   annotations:
