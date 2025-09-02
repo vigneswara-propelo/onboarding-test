@@ -12,14 +12,26 @@ spec:
   - api:account/api_resolve
   - api:account/accesscontrol-service
   - api:account/cchg
-  ownedBy:
-  - group:account/AAAFF
   consumesApis:
   - api:account/testingg_url_505
   - api:account/test_project
   - api:account.default.IDP_TEST/testapitest
   - api:account/testingg_url_510
   - api:account/testapi
+  consumesApi:
+  - api:account/testingg_url_505
+  - api:account/test_project
+  - api:account.default.IDP_TEST/testapitest
+  - api:account/testingg_url_510
+  - api:account/testapi
+  providesApi:
+  - api:account/api1
+  - api:account/dasdsa
+  - api:account/api_resolve
+  - api:account/accesscontrol-service
+  - api:account/cchg
+  ownedBy:
+  - group:account/AAAFF
 metadata:
   description: desc
   annotations:
