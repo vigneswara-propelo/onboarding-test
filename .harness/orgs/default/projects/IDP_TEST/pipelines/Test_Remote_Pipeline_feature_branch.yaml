@@ -1,6 +1,6 @@
 pipeline:
-  name: Test Remote Entity
-  identifier: Test_Remote_Entity
+  name: Test Remote Pipeline feature branch
+  identifier: Test_Remote_Pipeline_feature_branch
   projectIdentifier: IDP_TEST
   orgIdentifier: default
   tags: {}
@@ -30,4 +30,4 @@ pipeline:
                   identifier: Run_1
                   spec:
                     shell: Sh
-                    command: echo "Hello World - Testing feature"
+                    command: echo "Hello World"
