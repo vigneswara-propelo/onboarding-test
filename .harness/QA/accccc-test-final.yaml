@@ -10,8 +10,8 @@ spec:
   - api:account/api1
   - api:account/dasdsa
   - api:account/api_resolve
-  - api:account/accesscontrol-service
   - api:account/cchg
+  - api:account/accesscontrol-service
   consumesApis:
   - api:account/testingg_url_505
   - api:account/test_project
@@ -41,8 +41,6 @@ metadata:
       cd: https://stress.harness.io/ng/account/px7xd_BFRCi-pfWPYXVjvw/cd/orgs/default/projects/idptestharness/services/testservice
     gitlab.com/project-id: '72857233'
     jira/project-key: '428'
-    jfrog.com/artifactory-artifact: my-lib
-    jfrog.com/artifactory-repo: jitpack-cache
-    jfrog.com/artifactory-group: com.mycompany
-    jfrog.com/artifactory-scope: compile
-    jfrog.com/artifactory-packaging: jar
+    jfrog.com/artifactory-repo: ci-internal
+    jfrog.com/artifactory-group: org.apache.commons
+    jfrog.com/artifactory-artifact: commons-lang3
