@@ -43,4 +43,4 @@ metadata:
     jira/project-key: '428'
     jfrog.com/artifactory-repo: tf-trial
     jfrog.com/artifactory-group: workspaces
-    jfrog.com/artifactory-artifact: jfrog-ws1.state.latest.json
+    jfrog.com/artifactory-artifact: jfrog-ws1.2.3.commons-lang3-3.5.jar
