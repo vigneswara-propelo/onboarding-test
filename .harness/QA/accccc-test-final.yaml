@@ -41,6 +41,6 @@ metadata:
       cd: https://stress.harness.io/ng/account/px7xd_BFRCi-pfWPYXVjvw/cd/orgs/default/projects/idptestharness/services/testservice
     gitlab.com/project-id: '72857233'
     jira/project-key: '428'
-    jfrog.com/artifactory-repo: ci-internal
-    jfrog.com/artifactory-group: org.apache.commons
-    jfrog.com/artifactory-artifact: commons-lang3
+    jfrog.com/artifactory-repo: tf-trial
+    jfrog.com/artifactory-group: workspaces
+    jfrog.com/artifactory-artifact: jfrog-ws1
