@@ -6,6 +6,13 @@ name: account level 1202 test
 owner: group:account/Test_IDP_Platform_Eng
 spec:
   lifecycle: experimental
+  sourceCode:
+    provider: Github
+    repoName: backstage-test
+    connectorRef: account.Vignesh_Github
+    branch: master
+    monoRepo: false
+    url: https://github.com/vigneswara-propelo/backstage-test/tree/master
   ownedBy:
   - group:account/Test_IDP_Platform_Eng
 metadata:
