@@ -7,7 +7,7 @@ owner: user:account/admin@harness.io
 spec:
   lifecycle: production
 metadata:
-  description: desc updated1
+  description: desc updated2
   tags:
   - java
   - python
