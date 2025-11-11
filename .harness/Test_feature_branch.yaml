@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: Test_feature_branch
+name: Test feature branch
+owner: user:account/admin@harness.io
+spec:
+  lifecycle: production
+metadata:
+  tags:
+  - java
+  - python
