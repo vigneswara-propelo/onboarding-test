@@ -4,3 +4,4 @@ name: Test Pedro 2
 identifier: Test_Pedro_2
 type: service
 owner: group:/account/_account_all_users   # note the invalid owner format
+spec: {}
