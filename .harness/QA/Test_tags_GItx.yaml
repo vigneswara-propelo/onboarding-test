@@ -1,0 +1,12 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: Test_tags_GItx
+name: Test tags GItx
+owner: user:account/vigneswara.mh@harness.io
+spec:
+  lifecycle: deprecated
+metadata:
+  description: Test tags GItx
+  tags:
+  - java
