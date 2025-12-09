@@ -8,6 +8,3 @@ spec:
   lifecycle: deprecated
 metadata:
   description: Test tags GItx
-  tags:
-  - java
-  - spotify
