@@ -1,0 +1,15 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: IDP_Github_Connector_Test_GitX
+name: IDP Github Connector Test GitX
+owner: group:account/_test_underscore_group
+spec:
+  lifecycle: production
+queryableEntityRef: zEaak-FLS425IEO7OLzMUg/component/IDP_Github_Connector_Test_GitX
+metadata:
+  description: IDP Github Connector Test GitX
+  tags:
+  - java
+  - spotify
+  - rest
