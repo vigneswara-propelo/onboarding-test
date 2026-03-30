@@ -2,7 +2,7 @@ apiVersion: harness.io/v1
 kind: Component
 type: service
 identifier: boutique
-name: Boutique Checkout
+name: Boutique Checkout Updated
 owner: group:test_user
 spec:
   lifecycle: Production
