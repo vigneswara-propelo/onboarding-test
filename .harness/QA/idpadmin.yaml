@@ -16,7 +16,6 @@ spec:
     repoName: Employee-Management-System
     url: https://github.com/vigneswara-propelo/Employee-Management-System/tree/main
   dependsOn:
-  - component:account/ng-manager
   - component:idp-service
   consumesApis:
   - idp-service
