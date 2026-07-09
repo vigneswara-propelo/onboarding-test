@@ -1,0 +1,15 @@
+apiVersion: harness.io/v1
+kind: Component
+type: service
+identifier: testregistercatalog
+orgIdentifier: default
+projectIdentifier: Vignesh
+name: Test Register Catalog
+owner: user:account/admin@harness.io
+spec:
+  lifecycle: production
+metadata:
+  description: Test Register Catalog
+  tags:
+  - gitx
+  - java
