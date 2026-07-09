@@ -2,8 +2,6 @@ apiVersion: harness.io/v1
 kind: Component
 type: service
 identifier: test_gitx_demo_ktt
-orgIdentifier: default
-projectIdentifier: IDP
 name: Test GitX demo KTT
 owner: user:account/vigneswara.mh@harness.io
 spec:
