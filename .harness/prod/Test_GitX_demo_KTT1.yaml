@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: <+pipeline.variables.service_name>
+  description: <+pipeline.variables.description>
+  annotations:
+    backstage.io/source-location: url:https://github.com/<+pipeline.variables.repo_org>/<+pipeline.variables.service_name>
+    harness.io/cd-serviceId: <+pipeline.variables.service_name>
+spec:
+  type: service
+  lifecycle: experimental
+  owner: <+pipeline.variables.owner_team>
